@@ -15,7 +15,7 @@ scuff-em
 xschem with tcl automation
 Qucs
 
-<img src="https://raw.githubusercontent.com/diadatp/sky130_rf_tools/ind_3t_6w_6s_25r.svg" width="150" height="150"/>
+<img src="https://raw.githubusercontent.com/diadatp/sky130_rf_tools/main/ind_3t_6w_6s_25r.svg" width="150" height="150"/>
 
 In [part1](part1.md) is about laying out the inductor and running it through FastHenry2.
 The [part2](part2.md) deals with modeling capacitive contributions and combining the results to create a narrowband SPICE model.
