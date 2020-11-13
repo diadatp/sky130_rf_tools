@@ -33,47 +33,47 @@ CSX = SetMaterialProperty( CSX, 'FOX', 'Epsilon', 3.9 );
 CSX = AddMaterial( CSX, 'substr' );
 CSX = SetMaterialProperty( CSX, 'substr', 'Kappa', 1.5e4 );
 
-CSX = AddMaterial( CSX, 'nwell' );
-CSX = SetMaterialProperty( CSX, 'nwell', 'Kappa', 2.450980e+03 );
+% CSX = AddMaterial( CSX, 'nwell' );
+% CSX = SetMaterialProperty( CSX, 'nwell', 'Kappa', 2.450980e+03 );
 
-CSX = AddMaterial( CSX, 'diff' );
-CSX = SetMaterialProperty( CSX, 'diff', 'Kappa', 2.628812e+04 );
+% CSX = AddMaterial( CSX, 'diff' );
+% CSX = SetMaterialProperty( CSX, 'diff', 'Kappa', 2.628812e+04 );
 
-CSX = AddMaterial( CSX, 'poly' );
+% CSX = AddMaterial( CSX, 'poly' );
 CSX = SetMaterialProperty( CSX, 'poly', 'Kappa', 1.152605e+05 );
 
 CSX = AddMaterial( CSX, 'licon' );
-CSX = SetMaterialProperty( CSX, 'licon', 'Kappa', 7.121746e+04 );
+CSX = SetMaterialProperty( CSX, 'licon', 'Kappa', 0.9361e-6 / (152 * 0.17e-6 * 0.17e-6) );
 
 CSX = AddMaterial( CSX, 'li' );
 CSX = SetMaterialProperty( CSX, 'li', 'Kappa', 7.812500e+05 );
 
 CSX = AddMaterial( CSX, 'mcon' );
-CSX = SetMaterialProperty( CSX, 'mcon', 'Kappa', 3.162555e+05 );
+CSX = SetMaterialProperty( CSX, 'mcon', 'Kappa', 0.34e-6 / (9.3 * 0.17e-6 * 0.17e-6) );
 
 CSX = AddMaterial( CSX, 'metal1' );
 CSX = SetMaterialProperty( CSX, 'metal1', 'Kappa', 2.222222e+07 );
 
 CSX = AddMaterial( CSX, 'via1' );
-CSX = SetMaterialProperty( CSX, 'via1', 'Kappa', 8.230453e+05 );
+CSX = SetMaterialProperty( CSX, 'via1', 'Kappa', 0.27e-6 / (4.5 * 0.15e-6 * 0.15e-6) );
 
 CSX = AddMaterial( CSX, 'metal2' );
 CSX = SetMaterialProperty( CSX, 'metal2', 'Kappa', 2.222222e+07 );
 
 CSX = AddMaterial( CSX, 'via2' );
-CSX = SetMaterialProperty( CSX, 'via2', 'Kappa', 6.982265e+05 );
+CSX = SetMaterialProperty( CSX, 'via2', 'Kappa', 0.42e-6 / (3.41 * 0.2e-6 * 0.2e-6) );
 
 CSX = AddMaterial( CSX, 'metal3' );
 CSX = SetMaterialProperty( CSX, 'metal3', 'Kappa', 2.517940e+07 );
 
 CSX = AddMaterial( CSX, 'via3' );
-CSX = SetMaterialProperty( CSX, 'via3', 'Kappa', 7.519362e+05 );
+CSX = SetMaterialProperty( CSX, 'via3', 'Kappa', 0.39e-6 / (3.41 * 0.2e-6 * 0.2e-6) );
 
 CSX = AddMaterial( CSX, 'metal4' );
 CSX = SetMaterialProperty( CSX, 'metal4', 'Kappa', 2.517940e+07 );
 
 CSX = AddMaterial( CSX, 'via4' );
-CSX = SetMaterialProperty( CSX, 'via4', 'Kappa', 5.211047e+06 );
+CSX = SetMaterialProperty( CSX, 'via4', 'Kappa', 0.505e-6 / (0.38 * 0.8e-6 * 0.8e-6) );
 
 CSX = AddMaterial( CSX, 'metal5' );
 CSX = SetMaterialProperty( CSX, 'metal5', 'Kappa', 2.784740e+07 );
